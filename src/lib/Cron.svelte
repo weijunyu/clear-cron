@@ -196,6 +196,8 @@
   Add new {selectedTimeUnitLabel} rule
 </Button>
 
+<a href="https://github.com/weijunyu/clear-cron" class="source-link"><small>Source</small></a>
+
 <style>
   .time-intervals-values {
     display: flex;
@@ -204,5 +206,9 @@
     background-color: #f7f7f7;
     padding: 1rem 0.5rem;
     border-radius: 2px;
+  }
+  .source-link {
+    margin-top: 8px;
+    float: right;
   }
 </style>
