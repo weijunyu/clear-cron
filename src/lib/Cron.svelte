@@ -8,6 +8,8 @@
   import CopyButton from "./CopyButton.svelte";
   import Title from "./common/Title.svelte";
 
+  import { slide } from "svelte/transition";
+
   import * as util from "./util";
 
   /*
@@ -155,7 +157,7 @@
 
 {#each selectedTimeUnitState as selectedTimeInterval, index}
   {#if selectedTimeUnitState}
-  <section class="time-intervals-values">
+  <section class="time-intervals-values" transition:slide={{ duration: 200 }}>
     <span>
       <TimeIntervalSelect
         selectedTimeInterval={selectedTimeInterval.interval} 
