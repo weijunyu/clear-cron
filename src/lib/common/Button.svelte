@@ -36,6 +36,7 @@
   }
   .button:active {
     transform: translateY(0);
+    box-shadow: 1px 1px 2px rgba(134, 134, 134, 0.514);
     transition: 0s;
   }
   .button:disabled {

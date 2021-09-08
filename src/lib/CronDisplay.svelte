@@ -32,6 +32,5 @@
   .cron-string-display {
     display: flex;
     justify-content: center;
-    cursor: pointer;
   }
 </style>

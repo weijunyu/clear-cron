@@ -26,11 +26,24 @@
     margin-right: 1rem;
     padding: 0.5rem;
     font-size: 2.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cron-item-display:hover {
+    background-color: #f3f3f3;
+    box-shadow: 2px 2px 4px rgba(134, 134, 134, 0.514);
+    transform: translateY(-2px);
+    transition: all 0.2s;
+  }
+  .cron-item-display:active {
+    transform: translateY(0);
+    box-shadow: 1px 1px 2px rgba(134, 134, 134, 0.514);
+    transition: all 0s;
   }
   .cron-item-display:last-child {
     margin-right: 0;
   }
   .active {
-    text-decoration: underline;
+    background-color: #f3f3f3;
   }
 </style>
